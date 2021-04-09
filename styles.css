@@ -1,0 +1,40 @@
+body{
+	font-family: 'Nunito', sans-serif;
+	letter-spacing: 0.2px;
+}
+
+.titulos{
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.titulos-zumbi{
+	font-family: 'New Tegomin', serif;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.texto-marcado {
+    background-color: #fdd;
+}
+
+.texto-italico {
+    font-style: italic;
+}
+
+.texto-sombreado{
+	
+	text-shadow: 1px 1px #ddd;
+}
+
+.texto-sublinhado {
+    text-decoration: underline;
+}
+
+.texto-riscado{
+	text-decoration: line-through;
+}
+
+.texto-negrito {
+    font-weight: 750;
+}
