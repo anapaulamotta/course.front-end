@@ -7,12 +7,37 @@ body{
 	background-color: #FCFDF0;
 }
 
-nav{
+.div-menu{
 	background-color: #6C6C73;
-	padding: 10px 0;
+	margin:0;
+	padding: 10px;
+	text-align: right;
 }
 
-article header{
+.div-menu i{
+	margin: 4px;
+}
+
+.div-menu ul{
+	list-style-type: none;
+}
+
+.div-menu li{
+	display: inline;
+}
+
+.div-menu a{
+	text-decoration: none;
+	color: #FCFDF0;
+	padding: 0 15px;
+}
+
+.div-menu li:hover{
+	font-size: 1.1em;
+	transition: 1s;
+}
+
+#header-index{
 	color: #F2F2F2;
 	text-shadow: 2px 2px #0d0d0d;
 	background: url('https://st4.depositphotos.com/1030956/40012/v/450/depositphotos_400124422-stock-illustration-light-bulbs-beautiful-vector-illustration.jpg') center no-repeat;
@@ -33,6 +58,8 @@ article header{
 	padding: 30px;
 	backdrop-filter: blur(3px);
 }
+
+
 .titulos{
 	text-align: center;
 	letter-spacing: 2px;
@@ -81,4 +108,5 @@ article{
 #table-tutoriais{
 	margin: 0 auto;
 }
+
 
