@@ -1,0 +1,35 @@
+#header-zumbi{
+	color: #111;
+	background-color: rgba(223, 222, 222,0.7);
+}
+
+
+.titulos-zumbi{
+	font-family: 'New Tegomin', serif;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+article{
+
+	background:url('https://blognerdegeek.com/wp-content/uploads/zombie-wallpaper001.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+section, h2, footer{
+	padding: 1% 5%;
+	margin: 1% 5%;
+	background: rgba(175,175,175,0.8);
+}
+
+img{
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+h5{
+	text-align: center;
+}

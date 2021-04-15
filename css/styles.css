@@ -1,14 +1,16 @@
 body{
 	margin: 0;
 	padding: 0;
+	border: none;
 	font-family: 'Nunito', sans-serif;
 	letter-spacing: 0.2px;
-	color: #000;
-	background-color: #FCFDF0;
+	color: #262526;
+	background: linear-gradient(207deg, rgba(223,222,222,1) 0%, rgba(234,230,200,1) 100%);
 }
 
+
 .div-menu{
-	background-color: #6C6C73;
+	background-color: #262526;
 	margin:0;
 	padding: 10px;
 	text-align: right;
@@ -28,35 +30,13 @@ body{
 
 .div-menu a{
 	text-decoration: none;
-	color: #FCFDF0;
+	color: 	#D9A60D;
 	padding: 0 15px;
 }
 
 .div-menu li:hover{
 	font-size: 1.1em;
 	transition: 1s;
-}
-
-#header-index{
-	color: #F2F2F2;
-	text-shadow: 2px 2px #0d0d0d;
-	background: url('https://st4.depositphotos.com/1030956/40012/v/450/depositphotos_400124422-stock-illustration-light-bulbs-beautiful-vector-illustration.jpg') center no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-#header-zumbi{
-	color: #F2F2F2;
-	text-shadow: 2px 2px #0d0d0d;
-	background: url('https://www.blogs.unicamp.br/ciencianerd/wp-content/uploads/sites/113/2018/10/zombies_by_ferigato-d352ghp-726x400.jpg') center no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-.div-header{
-	
-	padding: 30px;
-	backdrop-filter: blur(3px);
 }
 
 
@@ -66,11 +46,6 @@ body{
 	font-size: 1.6em;
 }
 
-.titulos-zumbi{
-	font-family: 'New Tegomin', serif;
-	text-align: center;
-	letter-spacing: 2px;
-}
 
 .texto-marcado {
     background-color: #fdd;
@@ -97,16 +72,5 @@ body{
     font-weight: 750;
 }
 
-article{
-	background: linear-gradient(180deg, rgba(252,253,240,1) 2%, rgba(255,249,232,1) 100%);
-}
-
-#form-contato{
-	margin: 0 5%;
-}
-
-#table-tutoriais{
-	margin: 0 auto;
-}
 
 

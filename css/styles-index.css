@@ -1,0 +1,55 @@
+#header-index img{
+	width: 4%;
+}
+
+
+#header-imagem{
+	padding: 40px;
+	background: url(https://www.growthcorp.com/wp-content/uploads/2018/10/bigstock-166565033.jpg) bottom;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+}
+
+
+#div-table{
+	margin: 1% 10%;
+}
+
+#table-tutoriais{
+	width: 100%;
+
+	border-collapse: collapse;
+
+}
+
+#table-tutoriais td{
+	background-color: #DFDEDE;
+	border: thin solid #F2F2F2;
+	padding: 1% ;
+
+}
+
+#table-tutoriais th{
+	background-color: #403E40;
+	color: #F2F2F2;
+	border: thin solid #F2F2F2;
+}
+
+#table-tutoriais .th-principal{
+	background-color: #262526;
+	border: thin solid #F2F2F2;
+}
+
+#table-tutoriais a{
+	color: #262526;
+	text-decoration: none;
+}
+
+#table-tutoriais .td-conteudo:hover{
+	background-color: #262526;
+	color: #F2F2F2;
+	transition: all 1s;
+	cursor: pointer;
+}
+
