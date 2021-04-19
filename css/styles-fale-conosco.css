@@ -8,27 +8,10 @@
 
 #form-contato{
 	margin: 3% 5%;
-    color: #DFDEDE;
-    padding: 3%;
-    background: linear-gradient(210deg, rgba(64,62,64,1) 0%, rgba(38,37,38,1) 100%);
-    border-radius: 6px;
 }
 
-#form-contato fieldset{
-	margin-top: 10px; 
-}
-
-#form-contato fieldset label{
+.lbl{
 	padding: 2px 15px 0 0;
-}
-
-#form-contato fieldset input, #form-contato fieldset select {
-    border: none;
-    padding: 15px;
-    box-shadow: 2px 2px 2px rgba(0,0,0, 0.3);
-    width: 85%;
-    background-color: #403E40;
-    color: #DFDEDE;
 }
 
  #form-contato fieldset select{
@@ -36,27 +19,7 @@
  }
 
 
-#form-contato input[type=radio]{
+#form-contato [type=radio]{
 	width: 3%;
 	box-shadow: none;
-}
-
-#form-contato input:focus {
-    outline: none;
-}
-
-#form-contato button{
-	margin: 10px;
-	background-color: #403E40;
-	color: #DFDEDE;
-	border: none;
-    padding: 15px 35px;
-    border-radius: 100px;
-}
-
-#form-contato button:hover{
-	cursor: pointer ;
-	background-color: #D9A60D;
-    color: #262526;
-	transition: all 1s;
 }

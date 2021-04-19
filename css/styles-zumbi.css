@@ -1,35 +1,40 @@
 #header-zumbi{
-	color: #111;
-	background-color: rgba(223, 222, 222,0.7);
+	margin: 0%;
+	color: #262526;
+	background: rgba(175,175,175,0.8);
 }
 
 
 .titulos-zumbi{
+	margin: 0;
 	font-family: 'New Tegomin', serif;
 	text-align: center;
 	letter-spacing: 2px;
 }
 
-article{
-
-	background:url('https://blognerdegeek.com/wp-content/uploads/zombie-wallpaper001.jpg');
-	background-size: cover;
-	background-attachment: fixed;
-
+.div-imagem{
+	backdrop-filter: blur(3px);
 }
 
-section, h2, footer{
+#artc-zumbi{
+	margin: 0%;
+	background:url('https://st4.depositphotos.com/17069610/20742/v/600/depositphotos_207422048-stock-video-collection-landscape-halloween-zombie-animation.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.bg-transparencia{
 	padding: 1% 5%;
 	margin: 1% 5%;
 	background: rgba(175,175,175,0.8);
 }
 
-img{
+.img-section{
 	width: 50%;
 	display: block;
 	margin: 0 auto;
 }
 
-h5{
+.subtitulo{
 	text-align: center;
 }

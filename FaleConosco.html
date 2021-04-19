@@ -5,7 +5,7 @@
 		<title>Fale Conosco</title>
 		<link rel="icon" href="https://image.flaticon.com/icons/png/512/114/114903.png" />
 		<meta name="author" content="Ana Paula Motta" />
-		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/styles-base.css" />
 		<link rel="stylesheet" href="css/styles-fale-conosco.css" />
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -19,8 +19,8 @@
 			<div class="div-menu">
 				<nav>
 					<ul>
-						<li><a href="index.html"><i class="fas fa-home"></i>HOME</a></li>
-						<li><a href="#"><i class="fas fa-comments"></i>FALE CONOSCO</a></li>
+						<li class="li-menu"><a class="link-menu" href="index.html"><i class="fas fa-home icone-menu"></i>HOME</a></li>
+						<li class="li-menu"><a class="link-menu" href="#"><i class="fas fa-comments icone-menu"></i>FALE CONOSCO</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -37,20 +37,20 @@
 				</div>
 			</header>
 			
-			<form id="form-contato">
+			<form id="form-contato" class="frm">
 				<section>
-					<fieldset>
+					<fieldset class="fldst">
 						<legend>Dados Pessoais</legend>
-						<label for="name">Nome</label>
-						<input type="text" id="name" placeholder="Digite seu Nome" />
+						<label class="lbl" for="name">Nome</label>
+						<input class="inp" type="text" id="name" placeholder="Digite seu Nome" />
 						<br/><br/>
 					
-						<label for="email">E-mail</label>
-						<input type="email" id="email" placeholder="Digite seu E-mail" />
+						<label class="lbl" for="email">E-mail</label>
+						<input class="inp" type="email" id="email" placeholder="Digite seu E-mail" />
 						<br/><br/>
 						
-						<label for="sltIdade">Faixa Etária</label>
-						<select id="sltIdade">
+						<label class="lbl" for="sltIdade">Faixa Etária</label>
+						<select class="inp" id="sltIdade">
 							<option></option>
 							<option>15 anos ou menos</option>
 							<option>16 anos a 18anos</option>
@@ -62,27 +62,27 @@
 					</fieldset>
 				</section>
 				<section>
-					<fieldset>
+					<fieldset class="fldst">
 						<legend >Mensagem</legend>
 						
-						<input type="radio" id="rbtSugestão" name="rbtOpiniao" />
+						<input class="inp" type="radio" id="rbtSugestão" name="rbtOpiniao" />
 						<label for="rbtSugestão">Sugestão de Tutorial</label>
 						
-						<input type="radio" id="rbtMelhorias" name="rbtOpiniao" />
+						<input class="input" type="radio" id="rbtMelhorias" name="rbtOpiniao" />
 						<label for="rbtMelhorias">Melhorias</label>
-						<input type="radio" id="rbtElogios" name="rbtOpiniao" />
+						<input class="inp"c type="radio" id="rbtElogios" name="rbtOpiniao" />
 						<label for="rbtElogios">Elogios</label>
 						<br/><br/>
 						
-						<label for="mensagem">Mensagem</label>
-						<input type="text" id="comentario" placeholder="Digite sua mensagem" maxlength="150" size="50" />
+						<label class="lbl" for="mensagem">Mensagem</label>
+						<input class="inp" type="text" id="comentario" placeholder="Digite sua mensagem" maxlength="150" size="50" />
 						<br/><br/>
 					</fieldset>
 					<br />
 				</section>
 				<footer>
-					<button type="reset">Limpar <i class="fas fa-sync-alt"></i></button>
-					<button type="submit">Enviar <i class="fas fa-arrow-right"></i></button>
+					<button class="btn" type="reset">Limpar <i class="fas fa-sync-alt"></i></button>
+					<button class="btn" type="submit">Enviar <i class="fas fa-arrow-right"></i></button>
 				</footer>
 			</form>				
 		</article>

@@ -5,7 +5,7 @@
 		<title>Os melhores tutoriais</title>
 		<link rel="icon" href="https://image.flaticon.com/icons/png/512/114/114903.png" />
 		<meta name="author" content="Ana Paula Motta" />
-		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/styles-base.css" />
 		<link rel="stylesheet" href="css/styles-index.css" />
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
@@ -15,12 +15,12 @@
 
 	</head>
 	<body>
-		<header class="menu">
+		<header>
 			<div class="div-menu">
 				<nav>
 					<ul>
-						<li><a href="#"><i class="fas fa-home"></i>HOME</a></li>
-						<li><a href="faleconosco.html"><i class="fas fa-comments"></i>FALE CONOSCO</a></li>
+						<li class="li-menu"><a href="#"  class="link-menu"><i class="fas fa-home icone-menu" ></i>HOME</a></li>
+						<li class="li-menu"><a href="faleconosco.html"  class="link-menu"><i class="fas fa-comments icone-menu"></i>FALE CONOSCO</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -31,7 +31,7 @@
 				<div class="div-header">
 					<h1 class="titulos">
 						Os Melhores tutoriais
-						<img src="https://media0.giphy.com/media/dAoHbGjH7k5ZTeQeBI/giphy.gif"/>
+						<img id="img-titulo" src="https://media0.giphy.com/media/dAoHbGjH7k5ZTeQeBI/giphy.gif"/>
 					</h1>
 				</div>
 
@@ -41,7 +41,7 @@
 			</header>
 			<section>
 				<div id="div-table">
-					<table id="table-tutoriais">
+					<table class="tbl">
 						<caption><h3>Tutoriais por Categoria</h3></caption>
 						<tr>
 							<th class="th-principal" colspan="3">Fictícios</th>
@@ -49,52 +49,52 @@
 
 						<tr>
 							<th class="th-secundario" rowspan="6">Vampiros</th>
-							<th rowspan="2">Agir</th>
-							<td>Como Agir Como um Vampiro</th>
+							<th class="th-secundario" rowspan="2">Agir</th>
+							<td class="td-tbl" >Como Agir Como um Vampiro <spam class="nao-adicionado">Tutorial ainda não adicionado<spam></th>
 						</tr>
 
 						<tr>
-							<td>Como Agir Como um Vampiro Pacífico</td>
+							<td class="td-tbl">Como Agir Como um Vampiro Pacífico <spam class="nao-adicionado">Tutorial ainda não adicionado<spam></td>
 						</tr>
 
 						<tr>
-							<th>Matar</th>
-							<td>Como Matar um Vampiro</th>
+							<th class="th-secundario">Matar</th>
+							<td class="td-tbl" >Como Matar um Vampiro <spam class="nao-adicionado">Tutorial ainda não adicionado<spam></th>
 						</tr>
 
 						<tr>
-							<th rowspan="3">Parecer</th>
-							<td>Como Parecer e Agir como um Vampiro Adolescente</td>
+							<th class="th-secundario" rowspan="3">Parecer</th>
+							<td class="td-tbl" >Como Parecer e Agir como um Vampiro Adolescente <spam class="nao-adicionado">Tutorial ainda não adicionado<spam></td>
 						</tr>
 
 						<tr>
-							<td>Como Parecer um Vampiro</td>
+							<td class="td-tbl" >Como Parecer um Vampiro <spam class="nao-adicionado">Tutorial ainda não adicionado<spam></td>
 						</tr>
 
 						<tr>
-							<td>Como Parecer um Vampiro do Crepúsculo</td>
+							<td class="td-tbl" >Como Parecer um Vampiro do Crepúsculo <spam class="nao-adicionado">Tutorial ainda não adicionado<spam></td>
 						</tr>
 
 						<tr>
 							<th class="th-secundario">Zumbi</th>
-							<td class="td-conteudo" colspan="2">
-								<a href="ComoParecerUmZumbi.html">
+							<a class="link-td" href="ComoParecerUmZumbi.html">
+								<td class="td-tbl td-hover" colspan="2">
 									Como Parecer um Zumbi
-								</a>
-							</td>
+								</td>
+							</a>
 						</tr>
 
 						<tr>
 							<th class="th-secundario" rowspan="3">Sereia</th>
-							<td colspan="2">Como Ser Como Uma Sereia</td>
+							<td class="td-tbl"  colspan="2">Como Ser Como Uma Sereia <spam class="nao-adicionado">Tutorial ainda não adicionado<spam></td>
 						</tr>
 
 						<tr>
-							<td colspan="2">como Parecer uma Sereia	</td>	
+							<td class="td-tbl"  colspan="2">como Parecer uma Sereia <spam class="nao-adicionado">Tutorial ainda não adicionado<spam></td>	
 						</tr>
 
 						<tr>
-							<td colspan="2">Como Agir Como uma Sereia na Escola</td>	
+							<td class="td-tbl"  colspan="2">Como Agir Como uma Sereia na Escola <spam class="nao-adicionado">Tutorial ainda não adicionado<spam></td>	
 						</tr>
 
 						<tr>
@@ -102,27 +102,27 @@
 						</tr>
 
 						<tr>
-							<td colspan="3">Como Hipnotizar a Qualquer Pessoa Para Fazer Coisas Legais Com Ela</td>
+							<td class="td-tbl"  colspan="3">Como Hipnotizar a Qualquer Pessoa Para Fazer Coisas Legais Com Ela <spam class="nao-adicionado">Tutorial ainda não adicionado<spam></td>
 						</tr>
 
 						<tr>
-							<td colspan="3">Como Fazer uma Barriga Falsa</td>
+							<td class="td-tbl"  colspan="3">Como Fazer uma Barriga Falsa <spam class="nao-adicionado">Tutorial ainda não adicionado<spam></td>
 						</tr>
 
 						<tr>
-							<td colspan="3">Como Fazer seu Nariz Sangrar sem se Machucar</td>
+							<td class="td-tbl"  colspan="3">Como Fazer seu Nariz Sangrar sem se Machucar <spam class="nao-adicionado">Tutorial ainda não adicionado<spam></td>
 						</tr>
 
 						<tr>
-							<td colspan="3">Como Fingir Estar Ocupado no Trabalho Sem Realmente Trabalhar</td>
+							<td  class="td-tbl" colspan="3">Como Fingir Estar Ocupado no Trabalho Sem Realmente Trabalhar <spam class="nao-adicionado">Tutorial ainda não adicionado<spam></td>
 						</tr>
 
 						<tr>
-							<td colspan="3">Como Evitar Bater em Alguém que Você não Gosta</td>
+							<td class="td-tbl"  colspan="3">Como Evitar Bater em Alguém que Você não Gosta <spam class="nao-adicionado">Tutorial ainda não adicionado<spam></td>
 						</tr>
 
 						<tr>
-							<td colspan="3">Como Passar no Exame Toxicológico com Remédios Caseiros</td>
+							<td class="td-tbl"  colspan="3">Como Passar no Exame Toxicológico com Remédios Caseiros <spam class="nao-adicionado">Tutorial ainda não adicionado<spam></td>
 						</tr>
 
 						<tr>
@@ -131,28 +131,28 @@
 
 						<tr>
 							<th class="th-secundario" rowspan="4">Ser</th>
-							<td colspan="2">Como Ser Estranho</td>
+							<td class="td-tbl"  colspan="2">Como Ser Estranho <spam class="nao-adicionado">Tutorial ainda não adicionado<spam></td>
 						</tr>
 
 						<tr>
-							<td colspan="2">Como Ser um Ninja</td>
+							<td class="td-tbl"  colspan="2">Como Ser um Ninja <spam class="nao-adicionado">Tutorial ainda não adicionado<spam></td>
 						</tr>
 
 						<tr>
-							<td colspan="2">Como Ser um Jedi</td>
+							<td class="td-tbl"  colspan="2">Como Ser um Jedi <spam class="nao-adicionado">Tutorial ainda não adicionado<spam></td>
 						</tr>
 
 						<tr>
-							<td colspan="2">Como Ser Como um Gato</td>
+							<td class="td-tbl"  colspan="2">Como Ser Como um Gato <spam class="nao-adicionado">Tutorial ainda não adicionado<spam></td>
 						</tr>
 
 						<tr>
 							<th class="th-secundario" rowspan="2">Sobrevivência</th>
-							<td colspan="2">Como Sobreviver a um Acidente de Avião</td>
+							<td class="td-tbl"  colspan="2">Como Sobreviver a um Acidente de Avião <spam class="nao-adicionado">Tutorial ainda não adicionado<spam></td>
 						</tr>
 
 						<tr>
-							<td colspan="2">Como Ser Feliz Apesar de um Fracasso Amoroso</td>
+							<td class="td-tbl"  colspan="2">Como Ser Feliz Apesar de um Fracasso Amoroso <spam class="nao-adicionado">Tutorial ainda não adicionado<spam></td>
 						</tr>
 					</table>
 				</div>

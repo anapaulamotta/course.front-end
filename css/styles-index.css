@@ -1,4 +1,4 @@
-#header-index img{
+#img-titulo{
 	width: 4%;
 }
 
@@ -16,40 +16,7 @@
 	margin: 1% 10%;
 }
 
-#table-tutoriais{
-	width: 100%;
-
-	border-collapse: collapse;
-
+.nao-adicionado{
+	color:#DFDEDE;
+	padding-left: 50px;
 }
-
-#table-tutoriais td{
-	background-color: #DFDEDE;
-	border: thin solid #F2F2F2;
-	padding: 1% ;
-
-}
-
-#table-tutoriais th{
-	background-color: #403E40;
-	color: #F2F2F2;
-	border: thin solid #F2F2F2;
-}
-
-#table-tutoriais .th-principal{
-	background-color: #262526;
-	border: thin solid #F2F2F2;
-}
-
-#table-tutoriais a{
-	color: #262526;
-	text-decoration: none;
-}
-
-#table-tutoriais .td-conteudo:hover{
-	background-color: #262526;
-	color: #F2F2F2;
-	transition: all 1s;
-	cursor: pointer;
-}
-
