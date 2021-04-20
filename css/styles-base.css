@@ -31,8 +31,15 @@ html, body{
 	margin: 4px;
 }
 
+.ul-menu{
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	list-style-type: none;
+}
+
 .li-menu{
-	display: inline;
+
 }
 
 .link-menu{
@@ -42,7 +49,7 @@ html, body{
 }
 
 .li-menu:hover{
-	font-size: 1.1em;
+	transform: rotateX(360deg);
 	transition: 1s;
 }
 

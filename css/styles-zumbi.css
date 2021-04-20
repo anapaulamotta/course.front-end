@@ -2,6 +2,8 @@
 	margin: 0%;
 	color: #262526;
 	background: rgba(175,175,175,0.8);
+	padding: 1px 10px;
+	text-align: center;
 }
 
 
@@ -18,7 +20,7 @@
 
 #artc-zumbi{
 	margin: 0%;
-	background:url('https://st4.depositphotos.com/17069610/20742/v/600/depositphotos_207422048-stock-video-collection-landscape-halloween-zombie-animation.jpg');
+	background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUohxXzv1lfJWe5mHHsOU3bsAe-hm0_sc8-g&usqp=CAU');
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -30,11 +32,33 @@
 }
 
 .img-section{
-	width: 50%;
+	width: 100%;
 	display: block;
 	margin: 0 auto;
 }
 
 .subtitulo{
 	text-align: center;
+}
+
+.flex-box, .flex-box-reverse{
+	padding: 15px 0;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.flex-box{
+	flex-direction: row;
+}
+
+.flex-box-reverse
+{
+	flex-direction: row-reverse;
+}
+
+.flex-item{
+	width: 500px;
+
 }
